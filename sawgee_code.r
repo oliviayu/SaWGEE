@@ -1,4 +1,6 @@
-# library(expm)
+library(geeM)
+library(dplyr)
+library(purrr)
 
 getLeftTerm = function(A, Xmat, cc.cum, k, count_bycluster){
   cluster_mu <- A[(cc.cum[k]+1):cc.cum[k+1]]
