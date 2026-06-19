@@ -8,7 +8,7 @@ library(glmmML)
 library(CorBin)
 library(glmnet)
 
-source("swgee_code.r")
+source("sawgee_code.r")
 
 df=read.csv("heart_2022_no_nans.csv")
 xvars = setdiff(names(df), c("HadHeartAttack"))
