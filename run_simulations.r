@@ -5,7 +5,7 @@ library(purrr)
 library(glmmML)
 library(CorBin)
 
-source("swgee_code.r")
+source("sawgee_code.r")
 
 parallel = F; mc.cores=1
 gee_check = c(T, F)[2] # run regular GEE?
