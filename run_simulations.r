@@ -3,6 +3,16 @@ library(dplyr)
 library(SimCorMultRes)
 library(purrr)
 library(glmmML)
+
+# NOTE: CorBin has been archived and is no longer available through
+# install.packages("CorBin"). If needed, install version 1.0.0 from:
+# https://cran.r-project.org/src/contrib/Archive/CorBin/CorBin_1.0.0.tar.gz
+# or run the code below
+# install.packages(
+#    "https://cran.r-project.org/src/contrib/Archive/CorBin/CorBin_1.0.0.tar.gz",
+#    repos = NULL,
+#    type = "source"
+#  )
 library(CorBin)
 
 source("sawgee_code.r")
