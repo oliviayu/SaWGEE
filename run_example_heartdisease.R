@@ -1,7 +1,6 @@
 library(magrittr)
 library(dplyr)
 library(geeM)
-library(dplyr)
 library(SimCorMultRes)
 library(purrr)
 library(glmmML)
