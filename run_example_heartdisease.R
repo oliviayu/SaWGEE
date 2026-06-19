@@ -1,11 +1,5 @@
 library(magrittr)
 library(dplyr)
-library(geeM)
-library(SimCorMultRes)
-library(purrr)
-library(glmmML)
-library(CorBin)
-library(glmnet)
 
 source("sawgee_code.r")
 
